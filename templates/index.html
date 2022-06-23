@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Car Incurance</title>
+</head>
+<body>
+    <from action ="/predict"  method ="POST">
+        
+        <lable>AGE:-</lable>
+        <select name="age">
+            <option value="0">16-25</option>
+            <option value="1">26-39</option>
+            <option value="2">40-64</option>
+            <option value="3">65+</option>
+        </select><br><br>
+
+        <label>Gender:-</label> 
+        <select name="gender">
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select><br><br> 
+
+        <label>RACE:-</label> 
+        <select name="race">
+            <option value="1">Minority</option>
+            <option value="0">Mejority</option>
+        </select><br><br> 
+
+        <lable>DRIVING EXPERIENCE:-</lable>
+        <select name="driving_experience">
+            <option value="0">0-9y</option>
+            <option value="1">10-19y</option>
+            <option value="2">20-29y</option>
+            <option value="3">30y+</option>
+        </select><br><br>
+
+        
+
+        <lable>INCOME:-</lable>
+        <select name="income">
+            <option value="0">poverty</option>
+            <option value="1">middle class</option>
+            <option value="2">working class</option>
+            <option value="3">upper class</option>
+        </select><br><br>
+
+        <label>CREDIT SCORE:-</label>
+        <input type="text" name="credit_score"><br><br>
+
+        <label>VEHICLE OWNERSHIP:-</label> 
+        <select name="vehicle_ownership">
+            <option value="0.0">no</option>
+            <option value="1.0">yes</option>
+        </select><br><br> 
+
+
+        <label>VEHICLE YEAR:-</label> 
+        <select name="vehicle_year">
+            <option value="0">before 2015</option>
+            <option value="1">after 2015</option>
+        </select><br><br> 
+
+        
+
+        <lable>POSTAL CODE:-</lable>
+        <select name="postal_code">
+            <option value="0">10238</option>
+            <option value="1">21217</option>
+            <option value="2">32765</option>
+            <option value="3">92101</option>
+        </select><br><br>
+
+
+        <label>ANNUAL MILEAGE:-</label>
+        <input type="text" name="annual_mileage"><br><br>
+
+        <label>VEHICLE TYPE:-</label> 
+        <select name="vehicle_type">
+            <option value="0">sedan</option>
+            <option value="1">sports car</option>
+        </select><br><br>
+
+        <label>SPEEDING VIOLATIONS:-</label>
+        <input type="text" name="speeding_violations"><br><br>
+
+        <label>DUIS:-</label>
+        <input type="text" name="duis"><br><br>
+
+        <label>PAST ACCIDENTS:-</label>
+        <input type="text" name="past_accidents"><br><br>
+
+
+        <input type="submit"  value="Predict">
+
+    </from>
+</body>
+</html>
+
+
